@@ -5,7 +5,7 @@ const axios = require("axios");
 const app = express();
 app.use(cors(
     {
-    origin:["*"],
+    origin:["https://map-dist-f.vercel.app"],
     methods:["POST","GET"],
     credentials:true
     }
